@@ -9,13 +9,17 @@ body{
     display:flex;
     padding:10px;
     margin:10px;
+    margin-bottom: 30px;
     background:bisque;
+    border-radius:5px ;
+    box-shadow: 5px 8px coral;
 
 }
 .assignment img {
     width:200px;
     border: 2px solid olive;
     margin-right:20px;
+    border-radius: 5px;
 }
 h1{
     color: coral;
@@ -24,4 +28,8 @@ h1{
 a{
     text-decoration:none;
     color: coral;
+}
+
+.assignment a:hover {
+    color:brown;
 }
