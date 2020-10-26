@@ -2,11 +2,16 @@ body{
     background: rgb(197, 65, 92);
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 
 
 .assignment {
-    display:flex;
+    width: 21%;
     padding:10px;
     margin:10px;
     margin-bottom: 30px;
@@ -20,6 +25,8 @@ body{
     border: 2px solid olive;
     margin-right:20px;
     border-radius: 5px;
+    display: block;
+    margin: auto;
 }
 h1{
     color: coral;
